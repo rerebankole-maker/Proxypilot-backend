@@ -1,0 +1,16 @@
+{
+  "name": "proxypilot-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Wisp relay backend for ProxyPilot / PilotVPN",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@mercuryworkshop/wisp-js": "^0.4.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
